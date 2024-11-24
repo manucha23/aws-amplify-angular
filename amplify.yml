@@ -9,6 +9,7 @@ frontend:
   phases:
     preBuild:
       commands:
+        - nvm install 23.3.0
         - nvm use 23.3.0
     build:
       commands:
